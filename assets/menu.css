@@ -1,0 +1,33 @@
+.menu {
+  background-color: var(--white-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  height: var(--menu-heigth);
+  width: 100vw;
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-nav {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.menu-nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  text-transform: capitalize;
+}
+.space {
+  padding-top: var(--menu-heigth);
+}

@@ -1,0 +1,54 @@
+p {
+  font-weight: 600;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 6rem;
+}
+
+h3 {
+  font-size: 5rem;
+}
+h4 {
+  font-size: 4.5rem;
+}
+
+h5 {
+  font-size: 4rem;
+}
+h6 {
+  font-size: 3.5rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  padding-right: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.text p {
+  max-width: 80rem;
+  margin: 0 auto;
+  text-align: center;
+  word-break: break-words;
+}
+
+.text h2 {
+  text-transform: uppercase;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
